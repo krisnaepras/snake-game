@@ -284,7 +284,8 @@ function displayHighScores(mode) {
     }
 
     let tableHTML = `
-        <h1>High Scores</h1>
+        <h1 style="font-size: 100px"; line-height: 1;>GAME OVER!</h1>
+        <h1 style="font-size: 64px"; line-height: 1;>High Scores</h1>
         <table>
             <thead>
                 <tr>

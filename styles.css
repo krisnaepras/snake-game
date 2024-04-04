@@ -109,6 +109,10 @@ tbody tr {
     color: #282c34;
 }
 
+button {
+    font-family: "Poppins", sans-serif;
+}
+
 .button-container {
     margin-top: 20px;
 }
