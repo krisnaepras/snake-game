@@ -1,4 +1,3 @@
-```markdown
 # Simple Bank System
 
 This project is a simple bank account management system implemented in JavaScript, with two versions: a **web-based interface** and a **terminal-based interface**. It allows users to perform basic banking operations such as checking balance, making deposits, and withdrawing funds.
@@ -35,7 +34,6 @@ function updateBalance() {
     balanceDisplay.textContent = `Rp${account.checkBalance()}`;
 }
 // More code...
-```
 
 ## Terminal Version
 
