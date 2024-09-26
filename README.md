@@ -1,51 +1,54 @@
-# Simple Bank System
+# Sistem Bank Sederhana (Challange Chapter 2)
 
-This project is a simple bank account management system implemented in JavaScript, with two versions: a **web-based interface** and a **terminal-based interface**. It allows users to perform basic banking operations such as checking balance, making deposits, and withdrawing funds.
+### Studi Kasus
+Dalam studi kasus ini, kita akan membuat sebuah Basic Banking System sederhana menggunakan konsep Pemrograman Berorientasi Objek (OOP) dan mensimulasikan operasi transaksi yang asynchronous.
 
-## Features
+## Fitur
 
-- **Web Version**: A user-friendly interface built with HTML, CSS (Tailwind), and JavaScript. Users can interact with the system via buttons and modal dialogs.
-- **Terminal Version**: A command-line interface (CLI) that allows users to interact with the system by entering commands directly into the terminal.
+- **Versi Web**: Antarmuka yang ramah pengguna dibangun dengan HTML, CSS (Tailwind), dan JavaScript. Pengguna dapat berinteraksi dengan sistem melalui tombol dan dialog modal.
+- **Versi Terminal**: Antarmuka command-line (CLI) yang memungkinkan pengguna berinteraksi dengan sistem dengan memasukkan perintah langsung ke terminal.
 
-## Web Version
+## Versi Web
 
-### How It Works:
-1. Displays the current account balance on the screen.
-2. Provides two buttons: **Deposit** and **Withdraw**.
-3. Clicking either button opens a modal where users can input the desired amount.
-4. After submitting, the system updates the balance and displays a success or error message.
+### Cara Kerja:
+1. Menampilkan saldo rekening saat ini di layar.
+2. Menyediakan dua tombol: **Setor** dan **Tarik**.
+3. Mengklik salah satu tombol akan membuka modal di mana pengguna dapat memasukkan jumlah yang diinginkan.
+4. Setelah pengiriman, sistem akan memperbarui saldo dan menampilkan pesan keberhasilan atau kesalahan.
 
-### Tech Stack:
+### Stack Teknologi:
 - **HTML**
-- **CSS**: Styled using [Tailwind CSS](https://tailwindcss.com/).
-- **JavaScript**: Handles all functionality, including DOM manipulation and asynchronous operations using `Promise` and `setTimeout()`.
+- **CSS**: Didesain menggunakan [Tailwind CSS](https://tailwindcss.com/).
+- **JavaScript**: Menangani semua fungsionalitas, termasuk manipulasi DOM dan operasi asinkron menggunakan `Promise` dan `setTimeout()`.
 
-### How to Run:
-1. Clone this repository:
+### Cara Menjalankan:
+1. Klon repositori ini:
     ```bash
     git clone https://github.com/your-username/simple-bank-system.git
     ```
-2. Open the `index.html` file in a web browser.
+2. Buka file `index.html` di peramban web.
 
-### How It Works:
-1. Displays the current balance in the terminal.
-2. Provides a menu with options to **Deposit**, **Withdraw**, or **Exit**.
-3. Users can input the desired amount for deposit or withdrawal.
-4. The balance is updated after each operation, with success or error messages shown in the terminal.
+## Versi Terminal
 
-### Tech Stack:
-- **Node.js**: This version uses Node.js and the `readline` module for input/output operations.
+### Cara Kerja:
+1. Menampilkan saldo saat ini di terminal.
+2. Menyediakan menu dengan opsi untuk **Setor**, **Tarik**, atau **Keluar**.
+3. Pengguna dapat memasukkan jumlah yang diinginkan untuk setoran atau penarikan.
+4. Saldo akan diperbarui setelah setiap operasi, dengan pesan sukses atau kesalahan yang ditampilkan di terminal.
 
-### How to Run:
-1. Clone this repository:
+### Stack Teknologi:
+- **Node.js**: Versi ini menggunakan Node.js dan modul `readline` untuk operasi input/output.
+
+### Cara Menjalankan:
+1. Klon repositori ini:
     ```bash
     git clone https://github.com/your-username/simple-bank-system.git
     ```
-2. Navigate to the project directory:
+2. Masuk ke direktori proyek:
     ```bash
     cd simple-bank-system
     ```
-3. Run the terminal version using Node.js:
+3. Jalankan versi terminal menggunakan Node.js:
     ```bash
     node banking_system_v_terminal.js
     ```
