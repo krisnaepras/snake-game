@@ -27,16 +27,6 @@ This project is a simple bank account management system implemented in JavaScrip
     ```
 2. Open the `index.html` file in a web browser.
 
-### Sample Code:
-```javascript
-const account = new BankAccount(27000);
-function updateBalance() {
-    balanceDisplay.textContent = `Rp${account.checkBalance()}`;
-}
-// More code...
-
-## Terminal Version
-
 ### How It Works:
 1. Displays the current balance in the terminal.
 2. Provides a menu with options to **Deposit**, **Withdraw**, or **Exit**.
@@ -59,42 +49,3 @@ function updateBalance() {
     ```bash
     node banking_system_v_terminal.js
     ```
-
-### Sample Code:
-```javascript
-rl.question('Masukkan nominal deposit: Rp', async (input) => {
-    let amount = Number(input);
-    try {
-        const result = await balance.deposit(amount);
-        console.log("\n" + result + "\n\n\n");
-    } catch (error) {
-        console.log(error);
-    }
-    main();
-});
-```
-
-## Folder Structure
-
-```
-simple-bank-system/
-├── bank_account.js            # The BankAccount class shared by both versions
-├── banking_system.js          # JavaScript for the web version
-├── banking_system_v_terminal.js # JavaScript for the terminal version
-├── index.html                 # Web version HTML file
-└── README.md                  # Project documentation
-```
-
-## Future Improvements
-
-- Add validation for input fields in the web version.
-- Improve error handling and edge cases in both versions.
-- Add more features, such as transaction history.
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
-```
-
-Make sure to update the GitHub URL in the `README.md` with the actual URL after you upload the project to your repository!
